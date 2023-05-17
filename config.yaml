@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://mingray98.github.io/mrcodingroom"
 title: MRcodingRoom
 paginate: 10
 theme: PaperMod
