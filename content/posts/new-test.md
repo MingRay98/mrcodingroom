@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "New Test"
+date: 2023-05-18T11:12:14+08:00
+lastmod: 2023-05-18T11:12:14+08:00
 author: ["MingRay"]
 
 categories:
