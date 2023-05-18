@@ -65,8 +65,8 @@ outputs:
 
 params:
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: Home
+    Content: 其實是中文部落格，但硬要打一點英文
   socialIcons:
     - name: github
       url: "https://github.com/mingray98"
@@ -76,7 +76,7 @@ params:
   author: MingRay
   # author: ["Me", "You"] # multiple authors
 
-  defaultTheme: dark # defaultTheme: light or  dark
+  defaultTheme: light # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   ShowShareButtons: true

@@ -42,6 +42,9 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
+            {{- if site.Params.assets.favicon }}
+                <img src={{ site.Params.assets.favicon | absURL }}/>
+            {{- end -}}
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">

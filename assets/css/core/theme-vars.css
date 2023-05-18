@@ -15,18 +15,28 @@
     --hljs-bg: rgb(28, 29, 33);
     --code-bg: rgb(234, 234, 234);
     --border: rgb(238, 238, 238);
+    /* new style*/
+    --header-bg: rgb(238, 238, 34);
+    --header-color: rgb(195, 0, 0);
+    --header-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+    --entry-box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
 .dark {
     --theme: rgb(29, 30, 32);
     --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
+    --primary: rgb(238, 238, 238);
+    --secondary: rgb(215, 215, 215);
     --tertiary: rgb(65, 66, 68);
     --content: rgb(196, 196, 197);
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    /* new style*/
+    --header-bg: rgb(73, 1, 1);
+    --header-color: var(--primary);
+    --header-box-shadow: 0px 2px 10px 3px rgba(255, 192, 192, 0.1);
+    --entry-box-shadow: none;
 }
 
 .list {

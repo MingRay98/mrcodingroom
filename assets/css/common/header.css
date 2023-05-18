@@ -6,6 +6,8 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
+    background-color: var(--header-bg);
+    box-shadow: var(--header-box-shadow);
 }
 
 .nav a {
@@ -25,6 +27,7 @@
 .logo a {
     font-size: 24px;
     font-weight: 700;
+    color: var(--header-color);
 }
 
 .logo a img, .logo a svg {
@@ -36,9 +39,19 @@
     margin-inline-end: 8px;
 }
 
+.logo img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    margin: auto 30px auto 0px;
+    border-radius: 10px;
+    
+}
+
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;
+    color: var(--header-color);
 }
 
 body.dark #moon {
@@ -57,12 +70,13 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 
-#menu li + li {
+#menu li+li {
     margin-inline-start: var(--gap);
 }
 
 #menu a {
     font-size: 16px;
+    color: var(--header-color);
 }
 
 #menu .active {
