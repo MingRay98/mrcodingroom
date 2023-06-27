@@ -14,7 +14,7 @@ tags:
 - shortcut
 - 快捷鍵
 
-description: "[VScode]自動排版、註解快捷鍵1" 
+description: "[VScode]自動排版、註解快捷鍵" 
 summary: "1.自動排版, Alt + Shift + F. 2.註解, Ctrl + /. 3.取消註解, Ctrl + /. 4.多行選取, Alt + left click. 5.查看定義, F12. 6.開啟終端機..." 
 weight: 
 slug: "VScode-自動排版-註解快捷鍵"
